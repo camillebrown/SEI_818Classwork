@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lato&display=swap');
+
+body {
+    background-color: #F8F7FF;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;'
+}
+
+/* .owl {
+    font-family: fantasy;
+} */
+
+.secret {
+    opacity: 0.5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    margin: 0 auto;
+  }
+
+.cabbage {
+    color:chartreuse;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    line-height: 20px;
+    font-size: 100px;
+    color: rgb(53, 66, 94)
+}
+
+h2{
+    line-height: 0px;
+}
+
+h3{
+    line-height: 15px;
+}
+
+h5{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h4.owl {
+    font-family: 'Lato', sans-serif;
+}
+

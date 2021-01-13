@@ -1,0 +1,15 @@
+.square{
+    background-color: ivory;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border: 1px solid black
+}
+
+.pink{
+    background-color: pink;
+}
+
+.button {
+    display: inline-block;
+}

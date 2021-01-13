@@ -1,0 +1,22 @@
+{
+  "name": "algo_practice",
+  "version": "1.0.0",
+  "description": "![](/ga_cog.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camillebrown/Algo_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camillebrown/Algo_practice/issues"
+  },
+  "homepage": "https://github.com/camillebrown/Algo_practice#readme",
+  "dependencies": {
+    "node": "^15.2.0"
+  }
+}

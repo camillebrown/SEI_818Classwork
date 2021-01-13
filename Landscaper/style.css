@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
+
+body {
+  background-image: url("landscaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container { 
+  height: 200px;
+  position: relative;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+h1 {
+  font-family: 'Syne', sans-serif;
+  color: #ffffff;
+  font-size: 4rem;
+  text-align: center;
+  position: relative;
+  margin-top: 300px;
+}
+button {
+  background: white;
+  color: green;
+  border: 6px solid darkgreen;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-family: 'Syne', sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background: lightblue;
+}
+

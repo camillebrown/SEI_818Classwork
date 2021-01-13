@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,800&display=swap');
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    text-align: center;
+    color: crimson;
+    background-color: white;
+}
+
+img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: 3px solid #ffdead;
+    padding: 20px; 
+    opacity: 0.8;
+}
+
+#span {
+    font-size: 10px;
+}
+
+.quote {
+    background-color: navajowhite;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 25px;
+    position: relative;
+    margin-top: 30px;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+ol {
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+li {
+    display: inline;
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+    display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+

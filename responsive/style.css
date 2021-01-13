@@ -1,0 +1,39 @@
+/* p{
+    color: blue;
+}
+
+li{
+    display: block;
+    color:blue;
+}
+
+
+@media (min-width: 600px) {
+    p {
+        color: red;
+        font-size: bolder;
+        font-size: 32px;
+    }
+
+    li{
+        display: inline-block;
+        color: red;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    li{
+        display: inline-block;
+        color: black;
+    }
+} */
+
+.button:hover {
+    background-color: red;
+}
+
+p::first-line {
+    color: red;
+    font-size: 32px;
+}
+

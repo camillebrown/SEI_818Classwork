@@ -1,0 +1,14 @@
+.square {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    border: 1px solid black;
+    float: left;
+}
+
+button, input {
+    display: block;
+}
+

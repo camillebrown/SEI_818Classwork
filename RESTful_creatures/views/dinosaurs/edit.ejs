@@ -1,0 +1,17 @@
+<!-- GET sends received data to query string in URL
+POST sends received data to req.body -->
+
+<!-- HTML 5 does not allow PUT as a method -->
+
+<!-- action = WHERE to place the info when the form is submitted -->
+<!-- method = WHAT to do when the form is submitted (either GET OR POST) -->
+<h3> You are editting data for dino #<%=dinoId %> </h1>
+<form method='POST' action='/dinosaurs/<%= dinoId %>/?_method=PUT'>
+    <label for='dinosaurName'>Name:</label>
+    <input type='text' name='name' id='dinosaurName' value='<%= dino.name %>'>
+
+    <label for='dinosaurType'>Type:</label>
+    <input type='text' name='type' id='dinosaurType' value="<%= dino.type %>">
+
+    <input type='submit'>
+</form>

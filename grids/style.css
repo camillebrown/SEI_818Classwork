@@ -1,0 +1,18 @@
+.red {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.black {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.container {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    line-height: 0px;
+}

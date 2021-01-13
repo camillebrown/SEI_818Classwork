@@ -1,0 +1,18 @@
+<div class="row heading">
+    <h1>Latest Posts from BlogPulse</h1>
+    <p id="about">BlogPulse is an up-and-coming player in the global media market,
+      providing user-generated content across all topics.</p>
+</div>
+<div class="row posts">
+    <% articles.forEach(function(a, i) { %>
+        <div class="blog-post">
+          <img class="image" src="<%= images[i] %>">
+          <h2>
+            <a class="blog-title" href="/articles/<%= a.id %>"><%= a.title %></a>
+            <p class="title-content"><%= a.author.getFullName() %><br>
+              <small><%= moment(a.createdAt).calendar() %></small>
+            </p>
+          </h2>
+        </div>
+    <% }) %>
+</div>

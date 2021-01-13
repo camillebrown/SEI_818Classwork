@@ -1,0 +1,33 @@
+.ings{
+  margin-top: 10px;
+}
+
+.add-btn{
+  display: inline;
+  color: green;
+  font-weight: bolder;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* height: 500px;
+  position: relative;  */
+}
+
+.column {
+  flex: 50%;
+  text-align: center;
+}
+
+.clear-btn{
+  margin-top: 20px;
+}
+
+.stack-area{
+  position:absolute;
+  bottom:150px;
+  right:17%;
+  
+}
